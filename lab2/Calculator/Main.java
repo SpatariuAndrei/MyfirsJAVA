@@ -2,13 +2,15 @@ package lab2.Calculator;
 
 public class Main {
 
+    //
+
     public static void main(String[] args) {
         int adunare = sum(2,8);
         int scadere = substraction(2,8);
         double impartire = division (2, 8);
         int inmultire = multiplication(2,8);
         float media = average(3,4,6);
-        int rest = restulimpartirii(47,9);
+        int rest = restulImpartirii(47,9);
         float celsius = temperatura(24);
         float inch = distantainchtometers(22);
         float metripersecunda = viteza(10000,1,10,10);
@@ -27,6 +29,25 @@ public class Main {
         System.out.println("Exercitiul 9: " + metripersecunda);
         System.out.println("Exercitiul 9: " + kmperora);
         System.out.println("Exercitiul 9: "+mileperora);
+
+        System.out.println("    J     a    v     v    a");
+        System.out.println("    J    a a    v   v    a a");
+        System.out.println(" J  J   aaaaa    V V    aaaaa");
+        System.out.println("  JJ   a     a    V    a     a");
+
+
+
+        System.out.println();
+        System.out.println();
+
+
+
+        System.out.println("   +'''''+    ");
+        System.out.println(" [ I o o I ]  ");
+        System.out.println("   I  ^  I    ");
+        System.out.println("   I     I    ");
+        System.out.println("   I '-' I    ");
+        System.out.println("   +-----+    ");
 
 
     }
@@ -47,9 +68,9 @@ public class Main {
     }
 
 
-        public static double division(int a, int b) {
+        public static double division(double a, double b) {
 
-        double impartire = (double)a/(double)b;
+        double impartire = a/b;
         return impartire;
 
 
@@ -70,7 +91,7 @@ public class Main {
         return media ;
     }
 
-    public static int restulimpartirii(int a, int b){
+    public static int restulImpartirii(int a, int b){
 
         int rest = a%b;
         return rest;
@@ -82,7 +103,7 @@ public class Main {
     float celsius = 5/9f * (F -32);
     return celsius;
 
-}
+    }
 
     public static float distantainchtometers(int M){
 
@@ -106,9 +127,9 @@ public class Main {
 
      }
 
-public static float viteza3(int d, int h, int m, int s){
+     public static float viteza3(float d, float h, float m, float s){
 
-        float mileperora = (d/1609f) / (h+(m/60f)+(s/3600f));
+        float mileperora = (d/1609) / (h+(m/60)+(s/3600));
         return mileperora;
-}
+        }
 }
