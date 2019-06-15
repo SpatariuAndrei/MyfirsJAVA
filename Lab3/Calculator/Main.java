@@ -34,6 +34,13 @@ public class Main {
 
         System.out.println(LogOp.TextComparison("Learning text comparison","Got to try some more"));
         System.out.println(LogOp.TextVsInt("FastTrackIT", 9));
+        System.out.println(LogOp.SnowInCm(9));
+        System.out.println(LogOp.NUMBERCOMPARISON(1111111111));
+        System.out.println((LogOp.IsNumberEven(-8)));
+        System.out.println(LogOp.isEligibleToVote(17));
+        System.out.println(LogOp.WhichIsBigger(2,7,55));
+
+
 
         Patterns patt = new Patterns();
         patt.JavaDesign();
