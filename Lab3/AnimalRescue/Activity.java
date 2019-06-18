@@ -2,8 +2,12 @@ package Lab3.AnimalRescue;
 
 public class Activity {
 
-    String Activityname = "Playing with other dogs";
+   private String Activityname ;
 
+public void setActivityname (String Activityname) {
+    this.Activityname = Activityname; }
+public String getActivityname () {
+    return Activityname;
 
-
+}
 }
