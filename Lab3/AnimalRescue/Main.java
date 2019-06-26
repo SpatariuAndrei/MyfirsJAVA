@@ -14,6 +14,7 @@ public class Main {
         daf.setEnergy(10);
         daf.setFavouriteActivity("Running");
         daf.setFavouriteFood("MANANCA TOT");
+
         System.out.println("DAF AGE IS:" + daf.getAge());
 
         AnimalFood FoodStoreDogFood;
