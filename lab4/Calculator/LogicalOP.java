@@ -123,10 +123,9 @@ public class LogicalOP {
         public void printToHundred(int number){
 
         for (int i = number; i<= 100; i++) {
-            System.out.println(i);
 
         }
-
+            System.out.println(number);
         }
 
         public void printSumAndAverage() {
@@ -285,24 +284,78 @@ public void prinOddNumbersWhile(){
 public void printCountMethod(){
 
         int sum= 0;
-        int a = 111;
+        int b = 111;
+        while (b<8899){
 
-        while (a<=8899){
-
-            sum +=a;
-            a++;
+            sum +=b;
+            b++;
         }
-    System.out.println(sum);
+        System.out.println(sum);
+    System.out.println(sum/8788f);
+
 
         }
+    public void countMethod () {
+        int count = 0;
+        int a = 8899;
+        while (a> 111) {
+
+            count=count+1;
+            a--;
+
+
+        }
+        System.out.println(count);
+
+    }
+public int loozaPalooza () {
+
+        int a =1;
+        while (a<=110){
+
+            if(a%3==0 ) {
+
+              System.out.print("Coza");
+              a++;
+            }
+           else if (a%3!=0) {
+
+               System.out.print(a);
+               a++;
+            }
+
+           else if(a%7==0) {
+
+
+            System.out.print("Woza");
+               a++;
+           }
+            else if (a%7!=0){
+                System.out.print(a);
+                a++;
 
 
 
 
-
-
+            }
+            }
+        return a;
+}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
