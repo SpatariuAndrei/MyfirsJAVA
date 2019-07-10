@@ -92,7 +92,29 @@ public  class LogicalOP {
 
 
         }
+        public List<Integer> printEvenList (List<Integer> myList1) {
 
+
+            List<Integer> lll = new ArrayList<>();
+            for (int i= 0; i<myList1.size();i++){
+
+               myList1.get(i);
+            if(myList1.get(i)%2==0) {
+
+                lll.add(myList1.get(i));
+
+
+
+
+
+
+
+            }
+
+            }
+            return lll;
+
+        }
 }
 
 

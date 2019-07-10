@@ -37,7 +37,7 @@ public class Main {
           list22.add(15);
 
 
-          lab6.getListHundred(list22);
+         // lab6.getListHundred(list22);
 
 
 
@@ -90,14 +90,14 @@ public class Main {
             list.add(444);
             list.add(55);
 
-           System.out.println("Max is:  " + lab6.findMaxInList(list));
+          // System.out.println("Max is:  " + lab6.findMaxInList(list));
 
             List<Integer> list32 = new ArrayList<>();
             list32.add(23);
             list32.add(22);
             list32.add(32);
             list32.add(2);
-            lab6.printIndexAndParameter(list32);
+           // lab6.printIndexAndParameter(list32);
 
             List<String> myList = new ArrayList<>();
             myList.add("A");
@@ -106,12 +106,17 @@ public class Main {
             myList.add("ca-n");
             myList.add("povesti....");
 
-            lab6.swapTwoElementsInAList(myList);
+          // lab6.swapTwoElementsInAList(myList);
+            List<Integer> lll = new ArrayList<>();
+            lll.add(12);
+            lll.add(13);
+            lll.add(14);
+            lll.add(15);
 
+           //System.out.println(lab6.printEvenList(lll));
 
 
 }
-
 
 }
 
