@@ -32,8 +32,14 @@ public  class LogicalOP {
 
 
 
-        mList1.add(0,myNum1);
-        return mList1;
+        mList1.add(0,myNum1);{
+
+
+
+            mList1.add(0,myNum1);
+            return mList1;
+        }
+
     }
 
 
@@ -115,6 +121,28 @@ public  class LogicalOP {
             return lll;
 
         }
+
+   // Scrieti o metoda Java, care sa primeasca doi parametrii: un parametru de tip Lista, iar celalalt un numar intreg.
+    //Sa se parcurga lista si sa afiseze, pe rand, toate valorile din lista,
+    //fiecare pe rand nou, pornind de la numarul intreg primit ca si parametru.
+
+  //  public  List<Integer> printFromParameter (List<Integer> muList, int a) {
+
+      //  List<Integer> lll = new ArrayList<>();
+
+        //for (int element:muList){
+
+          //  muList.get(element);
+
+
+
+         //   }
+
+
+
+        //}
+
+   // }
 }
 
 

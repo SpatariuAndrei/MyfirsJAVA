@@ -1,5 +1,10 @@
 package lab6.AnimalRescue;
 
+import lab6.AnimalRescue.Animal.Cat;
+import lab6.AnimalRescue.Animal.Dog;
+import lab6.AnimalRescue.Animal.Siamese;
+import lab6.AnimalRescue.Food.AnimalFood;
+
 public class Main {
 
     public static void main(String[] args) {

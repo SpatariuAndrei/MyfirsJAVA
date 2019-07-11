@@ -61,8 +61,8 @@ public class Main {
             mList1.add(1);
 
 
-            //lab6.getParameterFirstThenList(mList1,99);
-         //  System.out.println(mList1);
+           // lab6.getParameterFirstThenList(mList1,99);
+           // System.out.println(mList1);
 
 
 
@@ -114,6 +114,14 @@ public class Main {
             lll.add(15);
 
            //System.out.println(lab6.printEvenList(lll));
+
+            List<Integer> bla = new ArrayList<>();
+            bla.add(23);
+            bla.add(33);
+            bla.add(15);
+            bla.add(24);
+
+            System.out.println(lab6.printFromParameter(bla,32));
 
 
 }
