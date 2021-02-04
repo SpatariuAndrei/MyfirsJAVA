@@ -26,7 +26,9 @@ public class  AnimalFood {
 
     public void setfoodquantity(float foodquantity) {
         this.foodquantity = foodquantity;
+
     }
+
 
     public float getfoodquantity() {
         return foodquantity;
@@ -37,7 +39,11 @@ public class  AnimalFood {
     }
 
     public String getfoodavailability() {
-        return foodavailability;
+        if (foodquantity > 0){
+            return "Food is in stock";
+        }
+        else return "Food is not in stock";
+
 
     }
 }

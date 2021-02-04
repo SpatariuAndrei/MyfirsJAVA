@@ -121,7 +121,7 @@ public class Main {
             bla.add(15);
             bla.add(24);
 
-            System.out.println(lab6.printFromParameter(bla,32));
+            //System.out.println(lab6.printFromParameter(bla,32));
 
 
 }

@@ -1,9 +1,11 @@
 package lab6.AnimalRescue;
 
+import lab6.AnimalRescue.Animal.Animal;
 import lab6.AnimalRescue.Animal.Cat;
 import lab6.AnimalRescue.Animal.Dog;
 import lab6.AnimalRescue.Animal.Siamese;
 import lab6.AnimalRescue.Food.AnimalFood;
+import lab6.AnimalRescue.Food.CatFood;
 
 public class Main {
 
@@ -20,22 +22,25 @@ public class Main {
         daf.setFavouriteActivity("Running");
         daf.setFavouriteFood("MANANCA TOT");
 
-        System.out.println("DAF AGE IS:" + daf.getAge());
+       // System.out.println("DAF AGE IS:" + daf.getAge());
 
-        AnimalFood FoodStoreDogFood;
-        FoodStoreDogFood = new AnimalFood();
-        FoodStoreDogFood.setfoodavailability("Dog food In Stock");
 
-        AnimalFood FoodStoreCatFood;
-        FoodStoreCatFood = new AnimalFood();
-        FoodStoreCatFood.setfoodavailability("Catfood in Stock");
+        AnimalFood FoodStoreDogFood = new AnimalFood();
+
+        AnimalFood FoodStoreCatFood = new AnimalFood();
+
+        FoodStoreCatFood.setfoodquantity(15);
+        FoodStoreDogFood.setfoodquantity(0);
+
+      System.out.println(FoodStoreCatFood.getfoodavailability());
+
         System.out.println(FoodStoreDogFood.getfoodavailability());
 
         Adopter dafAdopter;
         dafAdopter = new Adopter();
         dafAdopter.setName("Anca");
         dafAdopter.setCashRon(3000d);
-        System.out.println(dafAdopter.getName());
+       //System.out.println(dafAdopter.getName());
 
 
         Dog Yuki = new Dog();
@@ -43,23 +48,19 @@ public class Main {
         Yuki.setHealthStatus(9);
 
 
-        System.out.println(Yuki.getAge());
-        System.out.println(Yuki.getHealthStatus());
+      //  System.out.println(Yuki.getAge());
+        //System.out.println(Yuki.getHealthStatus());
 
         Adopter YukiAdopter;
         YukiAdopter = new Adopter();
         YukiAdopter.setName("Horia");
 
 
-        AnimalFood Pedigree = new AnimalFood();
-        Activity FavouriteActivity = new Activity();
 
-        VET Specialist = new VET();
         Cat Fluffy = new Siamese();
         Fluffy.setAge(6);
        Fluffy.relaxed();
        Fluffy.play();
-
 
 
 

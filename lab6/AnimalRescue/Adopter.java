@@ -9,7 +9,7 @@ public class Adopter {
         this.name = name;
     }
 public String getName () {
-        return name; }
+        return "Name of the adopter is " +  name; }
 
         public void setCashRon(double cashRon) {
         this.cashRon= cashRon;

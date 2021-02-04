@@ -9,7 +9,10 @@ public class CatFood extends AnimalFood {
 
 
          setfoodname("Whiskas");
-       setfoodavailability("In stock");
+
+
+     setfoodquantity(22);
+
          setFoodpriceRonkg(25.5f);
 
 
